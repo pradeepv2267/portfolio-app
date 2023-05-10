@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Poppins&family=Roboto+Slab&family=Water+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-color: rgb(58, 254, 176);
+}
+.App {
+  text-align: center;
+}
+.active {
+  color: rgb(244, 248, 2) !important;
+}
+.Nav-bar{
+  width: 100%;
+  right: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  background-color: rgb(58, 254, 176) !important;
+
+}
+
+.Nav-items,.Nav-list{
+  display: flex;
+  gap: 2rem;
+  font-size: 15px;
+  font-weight: 20px;
+  color: rgb(7, 7, 7) !important;
+}
+.Nav-list{
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.box{
+  display: none;
+}

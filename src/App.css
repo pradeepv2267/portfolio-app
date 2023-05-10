@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+
+.NavBar{
+  position: sticky;
+  top: 0;
+}

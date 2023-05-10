@@ -1,0 +1,129 @@
+.Heading{
+    color: yellow;
+    font-family: "Water Brudh",cursive;
+    font-size: 44px;
+}
+
+.Heading:hover{
+    color: white;
+}
+
+.About-img > img{
+    position: absolute;
+    width: 30%;
+    height: 50%;
+    margin-top: auto;
+    object-fit: cover;
+
+}
+.About > .left-side {
+    z-index: 1;
+  }
+  .About > .left-side > h1 {
+    color: yellow;
+    font-family: "Water Brush", cursive;
+    font-size: 44px;
+  }
+  
+  .About > .left-side > h1:hover {
+    color: white;
+  }
+
+.right-side{
+    width: 360px;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transform: rotateX(-10deg) rotateZ(-10deg);
+    animation: move 20s linear infinite;
+}
+
+@keyframes move {
+    50%{
+        transform: rotateX(30deg);
+    }
+    80%{
+        transform: rotateX(-30deg);
+    }
+}
+
+.About-img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  .About-img > img:nth-child(1){
+    transform: rotateY(60deg) translateZ(175px);
+  }
+  .About-img > img:nth-child(2){
+    transform: rotateY(120deg) translateZ(175px);
+  }
+  .About-img > img:nth-child(3){
+    transform: rotateY(180deg) translateZ(175px);
+  }
+  .About-img > img:nth-child(4){
+    transform: rotateY(240deg) translateZ(175px);
+  }
+  .About-img > img:nth-child(5){
+    transform: rotateY(300deg) translateZ(175px);
+  }
+  .About-img > img:nth-child(6){
+    transform: rotateY(360deg) translateZ(175px);
+  }
+
+
+  .About-img >img:hover{
+    width: 35%;
+    height: 55%;
+    cursor: pointer;
+    transition: ease-out 1s;
+  }
+
+  @media only screen and (min-width: 325px) and (max-width: 475px) {
+    .Heading{
+        font-size: 24px;
+    }
+    .About > .left-side{
+        font-size: 12px;
+    }
+
+    .About > .right-side{
+        height: 20vh;
+        width: 40vw;
+        margin-left: 20%;
+        top: 0;
+    }
+        
+     
+
+    .About-img > img:nth-child(1){
+        transform: rotateY(60deg) translateZ(75px);
+      }
+      .About-img > img:nth-child(2){
+        transform: rotateY(120deg) translateZ(75px);
+      }
+      .About-img > img:nth-child(3){
+        transform: rotateY(180deg) translateZ(75px);
+      }
+      .About-img > img:nth-child(4){
+        transform: rotateY(240deg) translateZ(75px);
+      }
+      .About-img > img:nth-child(5){
+        transform: rotateY(300deg) translateZ(75px);
+      }
+      .About-img > img:nth-child(6){
+        transform: rotateY(360deg) translateZ(75px);
+      }
+  
+  }
