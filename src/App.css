@@ -3,6 +3,12 @@
 }
 
 .NavBar{
-  position: sticky;
-  top: 0;
+  width: 100%;
+  right: 0;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: 2;
+  
 }

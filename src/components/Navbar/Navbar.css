@@ -25,6 +25,7 @@ body {
   color: rgb(244, 248, 2) !important;
 }
 .Nav-bar{
+  position: fixed;
   width: 100%;
   right: 0;
   padding: 1.5rem;
