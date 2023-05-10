@@ -9,8 +9,12 @@ function Home() {
   return (
     <div className='Home'>
    <Container>
+   <div className='home-container'>
     <Row>
-        <Col md={7}>
+        <Col md={7} >
+          
+
+          
             <h1 className='HeadTxt'>
                 Hii...
                 <span className='Hi'>
@@ -22,7 +26,7 @@ function Home() {
             <Text/>
             <span></span>
             <button onClick={()=>{
-                window.open(`${"https://github.com/PradeepV0"}`);}}
+                window.open(`${"https://github.com/pradeepv2267?tab=repositories"}`);}}
                 className='social-icons'>
                     <AiFillGithub className='github-icon'/>
 
@@ -35,7 +39,7 @@ function Home() {
                 </button>
                 <Button
             onClick={() => {
-              window.open(`${"https://docs.google.com/document/d/1145bCsgYb9nzweglBwLmPd7dG23-p3YK/edit?usp=share_link&ouid=109591783048695661057&rtpof=true&sd=true"}`);
+              window.open(`${"https://drive.google.com/file/d/1-GyQpff-YL0pxqDiYMOeruWbxmnQ557F/view?usp=share_link"}`);
             }}
             className="resume-btn"
           >
@@ -47,8 +51,10 @@ function Home() {
         </Col>
         <Col md={5}>
             <div className="profile-Img"></div>
+            
         </Col>
     </Row>
+    </div>
    </Container>
     </div>
   );

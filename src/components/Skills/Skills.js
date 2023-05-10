@@ -8,23 +8,22 @@ import './Skills.css';
 function Skills() {
     return (
     <div className='Skills'>
-         {/* <Container>
-    <Row>
-        <Col md={12}> */}
+
                  <h1 className='Heading'>Skills</h1>
         <div className='Box-container'>
             
         <div className='Box'>
-        <FaHtml5/>
+        <FaHtml5 className='Html'/>
+        <span className='Logo-heading'>Html</span>
         </div>
         <div className='Box'>
-        <FaCss3Alt/>
+        <FaCss3Alt className='Css'/>
         </div>
         <div className='Box'>
-        <FaJsSquare/>
+        <FaJsSquare className='js'/>
         </div>
         <div className='Box'>
-        <FaReact/>
+        <FaReact className='react'/>
         </div>
         <div className='Box'>
         <FaNodeJs/>
@@ -39,11 +38,9 @@ function Skills() {
         <img src={VsCode} alt='VsCode'/>
         </div>
         </div>
-        {/* </Col>
-        </Row>        
-        </Container> */}
-    </div>
+        </div>
+ 
     );
-}
+};
 
 export default Skills;

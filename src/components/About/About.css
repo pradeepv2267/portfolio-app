@@ -1,3 +1,7 @@
+.About{
+  align-items: center;
+  justify-content: center;
+}
 .Heading{
     color: yellow;
     font-family: "Water Brudh",cursive;
