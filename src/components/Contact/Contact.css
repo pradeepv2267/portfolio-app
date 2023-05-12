@@ -163,7 +163,7 @@
   }
   .linkedin-icon{
     color: blue;
-    font-size: 100px;
+    font-size: 100px !important;
     cursor: pointer;
   }
   .git-icon{
