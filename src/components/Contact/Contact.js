@@ -156,7 +156,7 @@ function Contact() {
               <ul className="Ul-list">
                 <li className="Li"><a href="https://instagram.com/p_r_a_d_e_e._.p?igshid=OTk0YzhjMDVlZA==" target="_blank" rel="noopener noreferrer"><AiOutlineInstagram className="insta-icon"/></a></li>
                 <li className="Li"><a href="https://www.linkedin.com/in/pradeep-venkateshwaran-a0a559147" target="_blank" rel="noopener noreferrer"><AiFillLinkedin className="linkedin-icon"/></a></li>
-                <li className="Li"><a href="https://www.linkedin.com/in/pradeep-venkateshwaran-a0a559147" target="_blank" rel="noopener noreferrer"><AiOutlineGithub className="git-icon" /></a></li>
+                <li className="Li"><a href="https://github.com/pradeepv2267?tab=repositories" target="_blank" rel="noopener noreferrer"><AiOutlineGithub className="git-icon" /></a></li>
                 <li className="Li"><a href="https://wa.me/918508752732" target="_blank" rel="noopener noreferrer"><AiOutlineWhatsApp className="whatsapp-icon"/></a></li>
               </ul>
             </div>
